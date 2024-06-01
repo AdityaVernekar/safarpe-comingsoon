@@ -126,3 +126,16 @@ background: linear-gradient(135deg, rgba(249, 160, 64, 1.0), rgba(237, 186, 68, 
 a.underlined:hover {
   border-bottom: 1px dotted #fff;
 }
+
+
+.logoimage {
+  width: 150px; /* or any desired size */
+  height: 100px; /* or any desired size */
+  object-fit: contain;
+}
+
+.logoimage2 {
+  width: 200px; /* or any desired size */
+  height: 200px; /* or any desired size */
+  object-fit: contain;
+}

@@ -1,5 +1,7 @@
 import React from 'react';
 import "./App.css";
+import logo from "./assets/logo.png"
+import mainLogo from "./assets/mainLogo.png"
 
 class App extends React.Component {
   render = () => {
@@ -7,7 +9,9 @@ class App extends React.Component {
       <div className="card">
         <div className="header">
           <div className="logo">
-            <a href=".">SafarPe</a>
+            <a href=".">
+              <img src={logo} alt='logo' className="logoimage"/>
+            </a>
           </div>
           <div className="social">
             
