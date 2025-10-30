@@ -9,9 +9,9 @@ class App extends React.Component {
       <div className="card">
         <div className="header">
           <div className="logo">
-            <a href=".">
+            {/* <a href=".">
               <img src={logo} alt='logo' className="logoimage"/>
-            </a>
+            </a> */}
           </div>
           <div className="social">
             
@@ -22,7 +22,7 @@ class App extends React.Component {
             <h1>Website coming soon.</h1>
             <p>Please check back to know more. Shoot us an email if you're curious.</p>
           </div>
-          <a href="mailto:hello@safarpe.com">
+          <a href="mailto:adi@insightxlabs.in">
             <div className="cta">Send us an email</div>
           </a>
         </div>

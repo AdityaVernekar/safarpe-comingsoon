@@ -3,8 +3,8 @@
   height: 100%;
   margin: auto;
   min-height: 512px;
-background: rgba(249, 160, 64, 1.0);
-background: linear-gradient(135deg, rgba(249, 160, 64, 1.0), rgba(237, 186, 68, 1.0));
+  background: #000;
+  color: #fff;
   display: flex;
   flex-direction: column;
 }
@@ -94,6 +94,7 @@ background: linear-gradient(135deg, rgba(249, 160, 64, 1.0), rgba(237, 186, 68, 
 }
 
 .content .cta {
+  color: #000;
   min-width: 64px;
   padding: 16px 24px;
   background: #fff;
